@@ -3,7 +3,7 @@ import { ThemeToggleComponent } from './shared/components/theme-toggle/theme-tog
 import { ThemeService } from './shared/services/theme.service';
 import { MainComponent } from "./layout/main/main.component";
 
-const COMPONENTS = [ThemeToggleComponent, MainComponent],
+const COMPONENTS = [ThemeToggleComponent, MainComponent];
 
 @Component({
   selector: 'app-root',
