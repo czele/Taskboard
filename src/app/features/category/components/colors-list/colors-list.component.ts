@@ -22,6 +22,7 @@ const MODULES = [ MatDividerModule ];
             px-4 py-2 rounded-2xl w-[90px] text-center text-white font-semibold">
             {{ category.name }}
           </span>
+          <!-- teste -->
         }
       </div> 
 
