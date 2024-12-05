@@ -3,8 +3,8 @@ import { CategoryComponent } from '../../features/category/view/category/categor
 import { MatDividerModule } from '@angular/material/divider'
 import { TaskComponent } from '../../features/task/task/task.component';
 
-const COMPONENT = [CategoryComponent, TaskComponent];
-const MODULES = [MatDividerModule];
+const COMPONENT = [ CategoryComponent, TaskComponent ];
+const MODULES = [ MatDividerModule ];
 
 @Component({
   selector: 'app-main',
@@ -13,10 +13,12 @@ const MODULES = [MatDividerModule];
   template: `<div class="h-screen flex w-full">
     <!-- Categorias -->
     <app-category class="w-1/4"/>
+
     <!-- Divisor -->
-    <mat-divider class="h-full opacity-50"/>
+    <mat-divider class="h-full opacity-50" vertical/>
+
     <!-- Tarefas -->
-    <app-category class="w-3/4"/>
+    <app-task class="w-3/4"/>
   </div>`,
   styles: ``,
   changeDetection: ChangeDetectionStrategy.OnPush,
