@@ -18,7 +18,7 @@ const PIPES = [ AsyncPipe ]
       <app-main-list />
 
 
-      <!-- colors-list -->
+      <!-- colors-list a-->
       <app-colors-list />
     }
     </div>`,
